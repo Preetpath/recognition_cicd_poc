@@ -36,5 +36,5 @@ jobs:
           BUCKET_NAME: ${{ secrets.BUCKET_NAME }}
           AWS_REGION: us-east-2
           SOURCE_MODE: ZIP
-          SOURCE_PATH: ./dynamodb_custom
+          SOURCE_PATH: /dynamodb_custom
           DEST_FILE: custom_packages/dynamodb_custom.zip
